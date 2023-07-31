@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\CRUDMVC\\CRUDMVC\\CRUDMVC.csproj": {}
+    "C:\\repos\\Git\\CRUDMVC\\CRUDMVC\\CRUDMVC.csproj": {}
   },
   "projects": {
-    "C:\\repos\\CRUDMVC\\CRUDMVC\\CRUDMVC.csproj": {
+    "C:\\repos\\Git\\CRUDMVC\\CRUDMVC\\CRUDMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\CRUDMVC\\CRUDMVC\\CRUDMVC.csproj",
+        "projectUniqueName": "C:\\repos\\Git\\CRUDMVC\\CRUDMVC\\CRUDMVC.csproj",
         "projectName": "CRUDMVC",
-        "projectPath": "C:\\repos\\CRUDMVC\\CRUDMVC\\CRUDMVC.csproj",
+        "projectPath": "C:\\repos\\Git\\CRUDMVC\\CRUDMVC\\CRUDMVC.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\CRUDMVC\\CRUDMVC\\obj\\",
+        "outputPath": "C:\\repos\\Git\\CRUDMVC\\CRUDMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,26 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
